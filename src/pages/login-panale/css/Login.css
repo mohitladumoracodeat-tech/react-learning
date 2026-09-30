@@ -1,0 +1,194 @@
+/* Login.css */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+}
+
+/* Login Container */
+
+.login-container {
+    width: min(500px, calc(100% - 40px));
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-icon {
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5d5e61;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login-header h1 {
+    margin: 8px 0;
+    font-size: 28px;
+    color: #000000;
+}
+
+.login-header p {
+    margin: 0;
+    color: #6b7280;
+    font-size: 15px;
+}
+
+/* Form */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 13px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+/* Links */
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Remember Me */
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 5px 0 22px;
+    cursor: pointer;
+}
+
+.remember-me input {
+    width: 16px;
+    height: 16px;
+    accent-color: #2563eb;
+}
+
+.remember-me span {
+    font-size: 14px;
+    color: #4b5563;
+}
+
+/* Sign In Button */
+
+.sign-in-btn {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #5d5e61;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sign-in-btn:hover {
+    background: #1c982b;
+}
+
+.sign-in-btn:active {
+    transform: scale(0.98);
+}
+
+/* Divider */
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 25px 0;
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #e5e7eb;
+}
+
+/* Register */
+
+.register-text {
+    text-align: center;
+    margin: 0;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.register-text a {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+/* Mobile */
+
+/* @media (max-width: 480px) {
+    .login-container {
+        width: calc(100% - 30px);
+        margin: 20px auto;
+        padding: 25px 20px;
+    }
+
+    .login-header h1 {
+        font-size: 24px;
+    }
+} */

@@ -1,0 +1,71 @@
+.admin-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #18181b;
+  box-sizing: border-box;
+}
+
+.admin-card {
+  width: 550px;
+  max-width: 100%;
+  padding: 50px 35px;
+  text-align: center;
+  background: #27272a;
+  border-radius: 25px;
+  box-shadow: 0 0 50px 1px #ffe5a5;
+  box-sizing: border-box;
+}
+
+.admin-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: #f5e9bb;
+  font-size: 35px;
+}
+
+.admin-card h1 {
+  margin: 0 0 12px;
+  color: #fbbf24;
+  font-size: 34px;
+}
+
+.admin-card p {
+  margin: 0 auto 30px;
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.admin-card button {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+
+  background: #ffca45;
+  color: black;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.admin-card button:hover {
+  background: #fbbf24;
+  transform: translateY(-2px);
+}
+
+.admin-card button:active {
+  transform: translateY(0);
+}
